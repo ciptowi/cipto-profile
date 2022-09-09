@@ -188,3 +188,7 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+const education = document.getElementById("btn_education")
+const work = document.getElementById("work")
+
